@@ -1,0 +1,7 @@
+1: mkdir ~/.ssh
+2: cd ~/.ssh
+3: touch authorized_keys
+5: chmod 600 authorized_keys
+6: vim authorized_keys and copy content below:
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCKxQ9zezttfNya2nJYtBHHNkvg3SvH3D3d3x8+8+cAhPA2S/faKpL6uHsykuEI1VWFTENMNmQE2oFzmV3NH21qyzC2p4BG/6FNemgDEMQ928kgCK6tC6Lv2OgBniNuLV5WJSETNN54ixy0KDtZ8XmNu2KZfGCtElth/z8ZF6SbaX8YA+Spu98HRIBUxeWktAWA5m0mHv0IyopHeHxkhjcfs8XyILmlbj002Dl4R6GoT9c2sdz1egeCjcWKBaBvQ80SH9+uK/aYrmIk0SRZgBjgEHkPHNIpEcAnFWBHN1N/ay+czDWLZDsKXu3zlFFOEvX3Jf7WhdNfCHyF04MsQHXH ihakula
+7: ssh -i .../ihakula/ihakula.pem root@www.ihakula.com
